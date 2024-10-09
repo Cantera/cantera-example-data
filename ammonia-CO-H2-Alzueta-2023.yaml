@@ -1,14 +1,5 @@
 description: |-
-  A variation of the 2023 model of NH3 and H2 chemistry published by Alzueta and
-  coworkers, with the original version denoted below as "baseline". [1] In
-  the modified version, "linear-Burke", six complex-forming reactions have
-  been modified according to the linear Burke rate implementation of the
-  reduced-pressure linear mixture rule (LMR-R). These are: H2O (+M), HO2 (+M), H2O2
-  (+M), NH3 (+M), N2H4 (+M), and HNO (+M). Ab initio third-body efficiencies were
-  obtained at discrete temperatures from Jasper [2] and then fitted to an
-  Arrhenius parameterization to facilitate the temperature-dependence of these
-  parameters. Further description of the methodology used to adapt this
-  mechanism is available in Singal et al. [3]
+  A variation of the 2023 model of NH3 and H2 chemistry published by Alzueta and coworkers, with the original version denoted below as "baseline". [1] In the modified version, "linear-Burke", six complex-forming reactions have been modified according to the linear Burke rate implementation of the reduced-pressure linear mixture rule (LMR-R). These are: H2O (+M), HO2 (+M), H2O2 (+M), NH3 (+M), N2H4 (+M), and HNO (+M). Ab initio third-body efficiencies were obtained at discrete temperatures from Jasper [2] and then fitted to an Arrhenius parameterization to facilitate the temperature-dependence of these parameters. Further description of the methodology used to adapt this mechanism is available in Singal et al. [3]
 
   References:
 
@@ -2347,7 +2338,7 @@ common-reactions:
 - equation: N2H3 + NH2 <=> H2NN + NH3
   rate-constant: {A: 11.0, b: 3.08, Ea: 211.0}
   note: |-
-    P. Divart and L. Catoire. J. Phys. Chem. A, 124:62146236, 2020.
+    P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214 6236, 2020.
     #
 - equation: N2H3 + NH <=> tHNNH + NH2
   rate-constant: {A: 2.0e+13, b: 0.0, Ea: 0.0}
