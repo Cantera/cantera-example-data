@@ -944,7 +944,7 @@ linear-Burke-reactions:
   type: linear-Burke
   units: {length: m, quantity: kmol, activation-energy: cal/mol}
   colliders:
-  - name: M # N2 is reference collider
+  - name: M
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.000e-04 atm, A: 5.30514e+12, b: -2.80725e+00, Ea: 4.99267e+02}
@@ -961,12 +961,13 @@ linear-Burke-reactions:
   - name: H2O
     eps: {A: 1.04529e-01, b: 5.50787e-01, Ea: -2.32675e+02}
   note: |-
+    N2 is the reference collider 'M'.
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: H + O2 (+M) <=> HO2 (+M)
   type: linear-Burke
   colliders:
-  - name: M # Ar is reference collider
+  - name: M
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.316e-02 atm, A: 9.39968e+14, b: -2.14348e+00, Ea: 7.72730e+01}
@@ -990,12 +991,13 @@ linear-Burke-reactions:
   - name: H2O
     eps: {A: 3.69146e+01, b: -7.12902e-02, Ea: 3.19087e+01}
   note: |-
+    Ar is the reference collider 'M'.
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: H2O2 (+M) <=> OH + OH (+M)
   type: linear-Burke
   colliders:
-  - name: M # Ar is reference collider
+  - name: M
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.000e-04 atm, A: 2.71622e+18, b: -3.29277e+00, Ea: 4.87751e+04}
@@ -1016,12 +1018,13 @@ linear-Burke-reactions:
   - name: H2O
     eps: {A: 1.36377e+00, b: 3.06592e-01, Ea: 2.10079e+02}
   note: |-
+    Ar is the reference collider 'M'.
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: NH3 (+M) <=> H + NH2 (+M)
   type: linear-Burke
   colliders:
-  - name: M # Ar is reference collider
+  - name: M
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 0.1 atm, A: 7.23e+29, b: -5.316, Ea: 110862.4}
@@ -1039,13 +1042,14 @@ linear-Burke-reactions:
   - name: H2O
     eps: {A: 1.14560e+01, b: 1.27501e-01, Ea: 3.13959e+02}
   note: |-
+    Ar is the reference collider 'M'.
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: NH2 + NH2 (+M) <=> N2H4 (+M)
   type: linear-Burke
   units: {length: m, quantity: kmol, activation-energy: cal/mol}
   colliders:
-  - name: M # Ar is reference collider
+  - name: M
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.000e-04 atm, A: 1.20024e+25, b: -6.43982e+00, Ea: 2.05356e+03}
@@ -1066,12 +1070,13 @@ linear-Burke-reactions:
   - name: H2O
     eps: {A: 2.17658e+01, b: -1.14715e-01, Ea: 4.19216e+02}
   note: |-
+    Ar is the reference collider 'M'.
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: HNO (+M) <=> H + NO (+M)
   type: linear-Burke
   colliders:
-  - name: M # Ar is reference collider
+  - name: M
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 0.1 atm, A: 2.0121e+19, b: -3.021, Ea: 47792.0}
@@ -1084,6 +1089,7 @@ linear-Burke-reactions:
   - name: H2O
     eps: {A: 3.35451e+00, b: 1.33352e-01, Ea: 6.64633e+01}
   note: |-
+    Ar is the reference collider 'M'.
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 
