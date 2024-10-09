@@ -1088,42 +1088,42 @@ linear-Burke-reactions:
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 
 common-reactions:
-- equation: H + O2 <=> O + OH  # Reaction 1
+- equation: H + O2 <=> O + OH
   rate-constant: {A: 1.0e+14, b: 0.0, Ea: 1.5286e+04}
   note: |-
     *****************************************************************************
        H2/O2 subset                                                             *
     *****************************************************************************
-- equation: O + H2 <=> OH + H  # Reaction 2
+- equation: O + H2 <=> OH + H
   duplicate: true
   rate-constant: {A: 3.8e+12, b: 0.0, Ea: 7948.0}
   note: Hong et al., Proc. Comb. Inst. 33:309-316 (2011)
-- equation: O + H2 <=> OH + H  # Reaction 3
+- equation: O + H2 <=> OH + H
   duplicate: true
   rate-constant: {A: 8.8e+14, b: 0.0, Ea: 1.9175e+04}
-- equation: OH + H2 <=> H + H2O  # Reaction 4
+- equation: OH + H2 <=> H + H2O
   rate-constant: {A: 2.2e+08, b: 1.51, Ea: 3430.0}
   note: Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker
     D Troe J Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
-- equation: OH + OH <=> O + H2O  # Reaction 5
+- equation: OH + OH <=> O + H2O
   duplicate: true
   rate-constant: {A: 2.0e+07, b: 1.651, Ea: 631.0}
   note: |-
     Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)
      M. Sangwan, L. N. Krasnoperov, J Phys Chem A 116 (2012) 1181711822.
-- equation: OH + OH <=> O + H2O  # Reaction 6
+- equation: OH + OH <=> O + H2O
   duplicate: true
   rate-constant: {A: 2.6e+11, b: -0.057, Ea: -827.0}
-- equation: H2 + M <=> H + H + M  # Reaction 7
+- equation: H2 + M <=> H + H + M
   type: three-body
   rate-constant: {A: 4.6e+19, b: -1.4, Ea: 1.0438e+05}
   efficiencies: {H2: 2.5, H2O: 12.0, AR: 0.0, O2: 0.0}
   note: |-
     HH: Refitted (400-3000 K) for better stability of the solvers (avoiding
     negative 'A') 16-04-08"
-- equation: H2 + AR <=> H + H + AR  # Reaction 8
+- equation: H2 + AR <=> H + H + AR
   rate-constant: {A: 5.8e+18, b: -1.1, Ea: 1.0438e+05}
-- equation: H + O + M <=> OH + M  # Reaction 9
+- equation: H + O + M <=> OH + M
   type: three-body
   rate-constant: {A: 4.7e+18, b: -1.0, Ea: 0.0}
   efficiencies: {H2: 2.5, H2O: 12.0, AR: 0.75, CO: 1.9, CO2: 3.8, O2: 0.0}
