@@ -966,7 +966,7 @@ reactions:
 - equation: H2 + M <=> H + H + M  # Reaction 7
   type: three-body
   rate-constant: {A: 4.6e+19, b: -1.4, Ea: 1.0438e+05}
-  efficiencies: {H2: 2.5, H2O: 12.0, AR: 0.0}
+  efficiencies: {H2: 2.5, H2O: 12.0, AR: 0.0, O2: 0.0}
   note: "HH: Refitted (400-3000 K) for better stability of the solvers (avoiding
     negative 'A') 16-04-08"
 - equation: H2 + AR <=> H + H + AR  # Reaction 8
@@ -974,7 +974,7 @@ reactions:
 - equation: H + O + M <=> OH + M  # Reaction 9
   type: three-body
   rate-constant: {A: 4.7e+18, b: -1.0, Ea: 0.0}
-  efficiencies: {H2: 2.5, H2O: 12.0, AR: 0.75, CO: 1.9, CO2: 3.8}
+  efficiencies: {H2: 2.5, H2O: 12.0, AR: 0.75, CO: 1.9, CO2: 3.8, O2: 0.0}
   note: Tsang and Hampson, J. Phys. Chem. Ref. Data, 15:1087 (1986)
 - equation: O + O + M <=> O2 + M  # Reaction 10
   type: three-body
@@ -984,7 +984,7 @@ reactions:
 - equation: H2O + M <=> H + OH + M  # Reaction 11
   type: three-body
   rate-constant: {A: 6.1e+27, b: -3.322, Ea: 1.2079e+05}
-  efficiencies: {H2: 3.0, H2O: 0.0, N2: 2.0, O2: 1.5, CO: 1.9, CO2: 3.8}
+  efficiencies: {H2: 3.0, H2O: 0.0, N2: 2.0, O2: 0.0, CO: 1.9, CO2: 3.8}
   note: Tsang W Hampson RF JPCRD 15:1087 1986
 - equation: H2O + H2O <=> H + OH + H2O  # Reaction 12
   rate-constant: {A: 1.0e+26, b: -2.44, Ea: 1.2018e+05}
