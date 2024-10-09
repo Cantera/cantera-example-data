@@ -960,7 +960,7 @@ linear-Burke-reactions:
     eps: {A: 2.20621e-02, b: 4.74036e-01, Ea: -1.13148e+02}
   - name: H2O
     eps: {A: 1.04529e-01, b: 5.50787e-01, Ea: -2.32675e+02}
-  notes: |-
+  note: |-
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: H + O2 (+M) <=> HO2 (+M)
@@ -989,7 +989,7 @@ linear-Burke-reactions:
     eps: {A: 4.97750e+00, b: 1.64855e-01, Ea: -2.80351e+02}
   - name: H2O
     eps: {A: 3.69146e+01, b: -7.12902e-02, Ea: 3.19087e+01}
-  notes: |-
+  note: |-
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: H2O2 (+M) <=> OH + OH (+M)
@@ -1015,7 +1015,7 @@ linear-Burke-reactions:
     eps: {A: 6.45295e-01, b: 4.26266e-01, Ea: 4.28932e+01}
   - name: H2O
     eps: {A: 1.36377e+00, b: 3.06592e-01, Ea: 2.10079e+02}
-  notes: |-
+  note: |-
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: NH3 (+M) <=> H + NH2 (+M)
@@ -1038,7 +1038,7 @@ linear-Burke-reactions:
     eps: {A: 1.49004e+01, b: 6.06535e-02, Ea: 2.47652e+02}
   - name: H2O
     eps: {A: 1.14560e+01, b: 1.27501e-01, Ea: 3.13959e+02}
-  notes: |-
+  note: |-
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: NH2 + NH2 (+M) <=> N2H4 (+M)
@@ -1065,7 +1065,7 @@ linear-Burke-reactions:
     eps: {A: 1.64196e+01, b: -7.29636e-02, Ea: 3.66099e+02}
   - name: H2O
     eps: {A: 2.17658e+01, b: -1.14715e-01, Ea: 4.19216e+02}
-  notes: |-
+  note: |-
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 - equation: HNO (+M) <=> H + NO (+M)
@@ -1083,7 +1083,7 @@ linear-Burke-reactions:
     eps: {A: 7.56771e+00, b: -1.96878e-01, Ea: 2.53168e+02}
   - name: H2O
     eps: {A: 3.35451e+00, b: 1.33352e-01, Ea: 6.64633e+01}
-  notes: |-
+  note: |-
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New Mixture Rules Has a Substantial Impact on Combustion Predictions for H2 and NH3, Proc. Combust. Inst. 41 (2025).
     A. W. Jasper, Predicting third-body collision efficiencies for water and other polyatomic baths. Faraday Discuss. 238 (2022) 68-86.
 
