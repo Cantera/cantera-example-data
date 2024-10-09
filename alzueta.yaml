@@ -1,7 +1,7 @@
 description: |-
   A variation of the 2023 model of NH3 and H2 chemistry published by Alzueta and
-  coworkers, with the original version denoted below as "baseline_mechanism". [1] In
-  the modified version, "linear-Burke_mechanism", six complex-forming reactions have
+  coworkers, with the original version denoted below as "baseline". [1] In
+  the modified version, "linear-Burke", six complex-forming reactions have
   been modified according to the linear Burke rate implementation of the
   reduced-pressure linear mixture rule (LMR-R). These are: H2O (+M), HO2 (+M), H2O2
   (+M), NH3 (+M), N2H4 (+M), and HNO (+M). Ab initio third-body efficiencies were
@@ -25,26 +25,26 @@ description: |-
 units: {length: cm, time: s, quantity: mol, activation-energy: cal/mol}
 
 phases:
-- name: baseline_mechanism
+- name: baseline
   thermo: ideal-gas
   elements: [O, H, C, N, He, Ar]
   species: [NH3, NO2, NO, N2O, H2, O2, O3, H, O, OH, HO2, H2O, H2O2, CO,
     CO2, HOCO, CH2O, HCO, NH2, NH, N, NNH, N2H4, N2H3, tHNNH, cHNNH, H2NN,
     NH2OH, H2NO, HNOH, HNO, HON, HONO, HNO2, NO3, HONO2, H2NCO, HNCO, NCO,
     AR, HE, N2]
-  reactions: [common_reactions, baseline-pdep_reactions]
+  reactions: [common-reactions, baseline-pdep-reactions]
   kinetics: gas
   transport: mixture-averaged
   state: {T: 300.0, P: 1 atm}
 
-- name: linear-Burke_mechanism
+- name: linear-Burke
   thermo: ideal-gas
   elements: [O, H, C, N, He, Ar]
   species: [NH3, NO2, NO, N2O, H2, O2, O3, H, O, OH, HO2, H2O, H2O2, CO,
     CO2, HOCO, CH2O, HCO, NH2, NH, N, NNH, N2H4, N2H3, tHNNH, cHNNH, H2NN,
     NH2OH, H2NO, HNOH, HNO, HON, HONO, HNO2, NO3, HONO2, H2NCO, HNCO, NCO,
     AR, HE, N2]
-  reactions: [common_reactions, linear-Burke_reactions]
+  reactions: [common-reactions, linear-Burke_reactions]
   kinetics: gas
   transport: mixture-averaged
   state: {T: 300.0, P: 1 atm}
@@ -63,11 +63,6 @@ species:
     note: |-
       ATcT3E
        in Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153???160
-       ********************************************************************************
-       ********************************************************************************
-       ***** NH3 NH2 NH N N2H4 N2H3 N2H2 H2NN NNH
-       ********************************************************************************
-       ********************************************************************************
        NH3 <g> ATcT ver. 1.122, DHf298 = -45.554 ?? 0.030 kJ/mol - fit JAN17
   transport:
     model: gas
@@ -151,11 +146,6 @@ species:
       -797.948726, -0.84559132]
     note: |-
       ATcT3E
-       ********************************************************************************
-       ********************************************************************************
-       ***** H2 O2 O3 H O OH HO2 H2O H2O2
-       ********************************************************************************
-       ********************************************************************************
        H2 <g> ATcT ver. 1.122, DHf298 = 0.000 ?? 0.000 kJ/mol - fit JAN17
   transport:
     model: gas
@@ -328,11 +318,6 @@ species:
       -1.42586044e+04, 6.10076092]
     note: |-
       ATcT3E
-       ********************************************************************************
-       ********************************************************************************
-       ***** CO CO2
-       ********************************************************************************
-       ********************************************************************************
        CO <g> ATcT ver. 1.122, DHf298 = -110.523 ?? 0.026 kJ/mol - fit JAN17
   transport:
     model: gas
@@ -414,24 +399,6 @@ species:
       3616.42883, 3.92451197]
     note: |-
       ATcT3E
-      REF=ATcT C 2011}  Max Lst Sq Error Cp @ 6000 K 0.49%.
-       from Xiong et al., Combust. Flame 161 (2014) 885???897
-      3-HCOH                  C   1H   2O   1    0G   298.150  6000.000 1000.00      1
-       0.62184153E+01 0.18701090E-02-0.17117529E-06-0.44242689E-10 0.63999362E-14    2
-       0.23486822E+05-0.97996712E+01 0.36513441E+01 0.46834047E-02 0.11223500E-05    3
-      -0.80289814E-09-0.77469460E-12 0.24561953E+05 0.49211311E+01                   4
-      1-HCOH                  C   1H   2O   1    0G   298.150  6000.000 1000.00      1
-       0.57648468E+01 0.21295433E-02-0.19747641E-06-0.51074096E-10 0.74327861E-14    2
-       0.10621689E+05-0.77241540E+01 0.32130404E+01 0.32250737E-02 0.24648079E-05    3
-       0.15449875E-08-0.27946393E-11 0.11899702E+05 0.76449280E+01                   4
-      CHOH trans Hydroxymethylene trans  SIGMA=1  STATWT=1  IA=0.2970  IB=2.3197
-      IC=2.6167  Nu=3634,2827,1536,1330,1224,1099  REF=Burcat G3B3  HF298=108.16+/-.43
-      kJ  REF=Ruscic ATcT D 2013  {HF298=106.47+/-8 kJ  REF=Burcat G3B3}  Max Lst Sq
-      Error Cp @ 6000 K 0.45%.
-      CHOH trans  Hydr  T12/14C  1.H  2.O  1.   0.G   200.000  6000.000  B  30.02598 1
-      3.63500546E+00 5.45479239E-03-1.91285077E-06 3.03882849E-10-1.79904440E-14    2
-      5.28968001E+04 4.34543184E+00 4.72862471E+00-1.02082828E-02 4.21639528E-05    3
-      -4.64774522E-08 1.72559970E-11 5.31829869E+04 1.69093263E+00 5.44279146E+04    4
        HCO <g> ATcT ver. 1.122, DHf298 = 41.803 ?? 0.099 kJ/mol - fit JAN17
   transport:
     model: gas
@@ -631,11 +598,6 @@ species:
     note: |-
       ATcT/A
        Klippenstein et al, 2011 paper
-       ********************************************************************************
-       ********************************************************************************
-       ***** NH2OH H2NO HNOH HNO HON NO HONO HNO2 NO2 HONO2 NO3 N2O
-       ********************************************************************************
-       ********************************************************************************
   transport:
     model: gas
     geometry: nonlinear
@@ -699,13 +661,6 @@ species:
       1.17745744e+04, 7.27913637]
     note: |-
       ATcT3E
-       E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
-       tables (ftp://ftp.technion.ac.il/pub/supported/aetdd/thermodynamics; mirrored at
-       http://garfield.chem.elte.hu/burcat/burcat.html. Accessed July 2013.
-      HNOH cis  ATcT C  T11/11H  2.N  1.O  1.   0.G   200.000  6000.000 1000.        1
-       4.11664692E+00 4.81707273E-03-1.63507639E-06 2.53797646E-10-1.47744717E-14    2
-       1.25020921E+04 3.12195287E+00 3.80983976E+00 4.35965662E-04 1.51571801E-05    3
-      -1.96181113E-08 7.75279218E-12 1.28164979E+04 5.90835846E+00 1.40705826E+04    4
        E Goos A Burcat B Ruscic Ideal gas thermochemical database with updates from active thermochemical
        tables (ftp://ftp.technion.ac.il/pub/supported/aetdd/thermodynamics; mirrored at
        http://garfield.chem.elte.hu/burcat/burcat.html. Accessed July 2013.
@@ -934,11 +889,6 @@ species:
     note: |-
       ATcT3E
        Marshall and Glarborg (2021)
-       ********************************************************************************
-       ********************************************************************************
-       ***** N2 AR HE
-       ********************************************************************************
-       ********************************************************************************
        N2 <g> ATcT ver. 1.122, DHf298 = 0.000 ?? 0.000 kJ/mol - fit JAN17
   transport:
     model: gas
@@ -948,7 +898,7 @@ species:
     polarizability: 1.76
     rotational-relaxation: 4.0
 
-baseline-pdep_reactions:
+baseline-pdep-reactions:
 - equation: H2O + M <=> H + OH + M  # Reaction 13
   type: three-body
   rate-constant: {A: 6.1e+27, b: -3.322, Ea: 1.2079e+05}
@@ -1114,7 +1064,7 @@ linear-Burke_reactions:
   - name: H2O
     eps: {A: 3.35451e+00, b: 1.33352e-01, Ea: 6.64633e+01}
 
-common_reactions:
+common-reactions:
 - equation: H + O2 <=> O + OH  # Reaction 1
   rate-constant: {A: 1.0e+14, b: 0.0, Ea: 1.5286e+04}
 - equation: O + H2 <=> OH + H  # Reaction 2
