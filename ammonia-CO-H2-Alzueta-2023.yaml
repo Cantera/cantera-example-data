@@ -1554,7 +1554,7 @@ common-reactions:
   note: Whyte AR Phillips LF CPL 102:451 (1983)
 - equation: NH2 + HNO <=> NH3 + NO
   rate-constant: {A: 590.0, b: 2.95, Ea: -3469.0}
-  note: S. Xu, M.C. Lin, Int J Chem Kinet 41: 667677 (2009)
+  note: S. Xu, M.C. Lin, Int J Chem Kinet 41 667677 (2009)
 - equation: NH2 + NO <=> N2 + H2O
   rate-constant: {A: 2.6e+19, b: -2.369, Ea: 870.0}
   note: S. Song R.K. Hanson C.T. Bowman D.M. Golden Int J Chem Kinet 33 715-721 (2001)
@@ -1566,10 +1566,10 @@ common-reactions:
   note: |-
     P. Glarborg, The NH3/NO2/O2 system: Constraining key steps in ammonia ignition and
     N2O formation, submitted 2022
-    S. Xu, M.C. Lin, Int J Chem Kinet 41: 667-677 (2009); A-factor reduced 30%
+    S. Xu, M.C. Lin, Int J Chem Kinet 41 667-677 (2009); A-factor reduced 30%
 - equation: NH2 + HONO <=> NH2OH + NO
   rate-constant: {A: 5300.0, b: 2.28, Ea: 7983.0}
-  note: S. Xu, M.C. Lin, Int J Chem Kinet 41: 667-677 (2009)
+  note: S. Xu, M.C. Lin, Int J Chem Kinet 41 667-677 (2009)
 - equation: NH2 + HNO2 <=> NH3 + NO2
   rate-constant: {A: 2.8e+10, b: 0.0, Ea: -5760.0}
   note: Thaxton, A.G.; Hsu, C.C.; Lin, M.C. Int. J. Chem. Kinet. 29 245-251 (1997)
