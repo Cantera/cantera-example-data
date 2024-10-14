@@ -61,7 +61,7 @@ species:
       -6415.96473, 8.02154329]
     note: |-
       ATcT3E
-       in Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153???160
+       in Marshall and Glarborg, Proc. Combust. Inst. 35 (2015) 153-160
        NH3 <g> ATcT ver. 1.122, DHf298 = -45.554 ?? 0.030 kJ/mol - fit JAN17
   transport:
     model: gas
@@ -599,7 +599,7 @@ species:
       -6860.18419, 3.79156136]
     note: |-
       ATcT/A
-       Klippenstein et al, 2011 paper
+      Klippenstein et al. (2011)
   transport:
     model: gas
     geometry: nonlinear
@@ -960,8 +960,8 @@ baseline-pdep-reactions:
   Troe: {A: 0.82, T3: 1.0e-30, T1: 1.0e+30, T2: 1.0e+30}
   efficiencies: {N2: 1.6}
   note: |-
-     Tsang W JPCRD 20:221 1991 (high pressure limit)
-     Riley PS Cosic B Fontijn A IJCK 35:374 2003 (low pressure limit)
+     Tsang W JPCRD 20:221 (1991) (high pressure limit)
+     Riley PS Cosic B Fontijn A IJCK 35:374 (2003) (low pressure limit)
 
 linear-Burke-reactions:
 - equation: H + OH (+M) <=> H2O (+M)
@@ -1146,7 +1146,7 @@ common-reactions:
   rate-constant: {A: 8.8e+14, b: 0.0, Ea: 1.9175e+04}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: OH + H2 <=> H + H2O
   rate-constant: {A: 2.2e+08, b: 1.51, Ea: 3430.0}
   note: Michael and Sutherland, J. Phys. Chem. 92:3853 (1988)
@@ -1191,12 +1191,12 @@ common-reactions:
   rate-constant: {A: 1.4e+12, b: 0.0, Ea: 0.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker
-    D Troe J Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    D Troe J Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: HO2 + O <=> O2 + OH
   rate-constant: {A: 2.9e+10, b: 1.0, Ea: -724.0}
   note: |-
     Fernandez-Ramos and Varandas, J. Phys. Chem. A 106:4077-4083 (2002)
-    Scaled by 0.60 by Burke et al. 2012
+    Scaled by 0.60 by Burke et al. (2012)
 - equation: HO2 + OH <=> H2O + O2
   duplicate: true
   rate-constant: {A: 1.9e+20, b: -2.49, Ea: 584.0}
@@ -1243,7 +1243,7 @@ common-reactions:
   note: |-
     M. P. Burke and S. J. Klippenstein. Ephemeral collision complexes mediate chemically
     termolecular transformations that affect system chemistry. Nat. Chem., 9:1078-1082,
-    2017
+    (2017)
     CO/CO2 subset
 - equation: CO + O (+M) <=> CO2 (+M)
   type: falloff
@@ -1251,7 +1251,7 @@ common-reactions:
   high-P-rate-constant: {A: 1.8e+10, b: 0.0, Ea: 2384.0}
   Troe: {A: 1.0, T3: 1.0e-30, T1: 1.0e+30, T2: 1.0e+30}
   efficiencies: {H2: 2.5, H2O: 12.0, CO: 1.9, CO2: 3.8}
-  note: Mueller MA Yetter RA Dryer FL IJCK 31:705 1999
+  note: Mueller MA Yetter RA Dryer FL IJCK 31:705 (1999)
 - equation: CO + OH <=> CO2 + H
   type: pressure-dependent-Arrhenius
   rate-constants:
@@ -1311,7 +1311,7 @@ common-reactions:
 - equation: HOCO + OH <=> CO2 + H2O
   duplicate: true
   rate-constant: {A: 9.5e+06, b: 2.0, Ea: -89.0}
-  note: Yu H-G Muckerman JT Francisco JS JPCA 109:5230-5236 2005
+  note: Yu H-G Muckerman JT Francisco JS JPCA 109:5230-5236 (2005)
 - equation: HOCO + HO2 <=> CO2 + H2O2
   rate-constant: {A: 4.0e+13, b: 0.0, Ea: 0.0}
   note: H.G. Yu, G. Poggi, J.S. Francisco, J.T. Muckerman, J. Chem. Phys. 129 (2008)
@@ -1326,14 +1326,14 @@ common-reactions:
   low-P-rate-constant: {A: 1.3e+36, b: -5.5, Ea: 9.3932e+04}
   high-P-rate-constant: {A: 8.0e+15, b: 0.0, Ea: 8.7726e+04}
   note: |-
-    Troe J JPCA 109:8320-8328 2005
+    Troe J JPCA 109:8320-8328 (2005)
     J. Troe, J. Phys. Chem. A 111 (2007)
 - equation: CH2O (+M) <=> CO + H2 (+M)
   type: falloff
   low-P-rate-constant: {A: 4.4e+38, b: -6.1, Ea: 9.3932e+04}
   high-P-rate-constant: {A: 3.7e+13, b: 0.0, Ea: 7.1969e+04}
   note: |-
-    Troe J JPCA 109:8320-8328 2005
+    Troe J JPCA 109:8320-8328 (2005)
     J. Troe, J. Phys. Chem. A 111 (2007)
 - equation: CH2O + H <=> HCO + H2
   duplicate: true
@@ -1366,22 +1366,22 @@ common-reactions:
   rate-constant: {A: 1.4e+15, b: -0.53, Ea: 4011.0}
   note: |-
      Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
-     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. 2016
+     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
+     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. (2016)
 - equation: CH2O + O <=> H + CO + OH
   rate-constant: {A: 2.5e+21, b: -1.903, Ea: 2.2674e+04}
 - equation: CH2O + OH <=> HCO + H2O
   rate-constant: {A: 1.9e+09, b: 1.256, Ea: -302.0}
   note: |-
-     S. Wang, D. F. Davidson, R. K. Hanson, Proc. Combust. Inst. 35 473-480 2015
-     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. 2016
+     S. Wang, D. F. Davidson, R. K. Hanson, Proc. Combust. Inst. 35 473-480 (2015)
+     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. (2016)
 - equation: CH2O + OH <=> H + CO + H2O
   rate-constant: {A: 7.2e+10, b: 0.892, Ea: 9310.0}
 - equation: CH2O + HO2 <=> HCO + H2O2
   rate-constant: {A: 4.4e+08, b: 1.298, Ea: 1.2129e+04}
   note: |-
-     Eiteneer B Yu CL Goldenberg M Frenklach M JPCA 102:5196 1998
-     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. 2016
+     Eiteneer B Yu CL Goldenberg M Frenklach M JPCA 102:5196 (1998)
+     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. (2016)
 - equation: CH2O + HO2 <=> H + CO + H2O2
   rate-constant: {A: 2.5e+14, b: 0.027, Ea: 3.012e+04}
 - equation: CH2O + O2 <=> HCO + HO2
@@ -1392,8 +1392,8 @@ common-reactions:
   rate-constant: {A: 6.6e+08, b: 1.36, Ea: 3.7324e+04}
   note: |-
      Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
-     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. 2016
+     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
+     applying prompt HCO dissociation - Labbe et al., J. Phys. Chem. Lett. (2016)
 - equation: CH2O + O2 <=> H + CO + HO2
   rate-constant: {A: 1.4e+15, b: 0.027, Ea: 5.6388e+04}
 - equation: HCO (+M) <=> H + CO (+M)
@@ -1403,25 +1403,25 @@ common-reactions:
   Troe: {A: 0.103, T3: 139.0, T1: 1.09e+04, T2: 4550.0}
   efficiencies: {N2: 1.5, HE: 1.3, O2: 1.5, CO: 1.5, H2: 2.0, CO2: 3.0,
     H2O: 15.0}
-  note: Yang et al., 8th U. S. National Combustion Meeting, 2013, 070RK-0163.
+  note: Yang et al., 8th U. S. National Combustion Meeting, (2013), 070RK-0163.
 - equation: HCO + H <=> CO + H2
   rate-constant: {A: 1.1e+14, b: 0.0, Ea: 0.0}
-  note: Friedrichs G Herbon JT Davidson DF Hanson RK CPPC 4:5778-5788 2002
+  note: Friedrichs G Herbon JT Davidson DF Hanson RK CPPC 4:5778-5788 (2002)
 - equation: HCO + O <=> CO + OH
   rate-constant: {A: 3.0e+13, b: 0.0, Ea: 0.0}
   note: |-
     Baulch DL Cobos CJ Cox RA Esser C Frank P Just Th Kerr JA Pilling MJ Troe J Walker
-    RW Warnatz J JPCRD 21:403 1992
+    RW Warnatz J JPCRD 21:403 (1992)
 - equation: HCO + O <=> CO2 + H
   rate-constant: {A: 3.0e+13, b: 0.0, Ea: 0.0}
   note: |-
     Baulch DL Cobos CJ Cox RA Esser C Frank P Just Th Kerr JA Pilling MJ Troe J Walker
-    RW Warnatz J JPCRD 21:403 1992
+    RW Warnatz J JPCRD 21:403 (1992)
 - equation: HCO + OH <=> CO + H2O
   rate-constant: {A: 1.1e+14, b: 0.0, Ea: 0.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: HCO + O2 <=> CO + HO2
   rate-constant: {A: 6.9e+06, b: 1.9, Ea: -1369.0}
   note: |-
@@ -1442,7 +1442,7 @@ common-reactions:
   note: Sutherland JW Patterson PM Klemm RB JPC 94:2471 (1990)
 - equation: NH3 + OH <=> NH2 + H2O
   rate-constant: {A: 2.0e+06, b: 2.04, Ea: 566.0}
-  note: Salimian S, Hanson RK, Kruger CH. Int J Chem Kin 1984;16:725.
+  note: Salimian S, Hanson RK, Kruger CH. Int J Chem Kin (1984);16:725.
 - equation: NH3 + HO2 <=> NH2 + H2O2
   rate-constant: {A: 1.2, b: 3.839, Ea: 1.726e+04}
   note: |-
@@ -1467,7 +1467,7 @@ common-reactions:
   rate-constant: {A: 6.6e+14, b: -0.5, Ea: 0.0}
   note: |-
     J.A. Miller M.D. Smooke R.M. Green R.J. Kee, Kinetic modeling of the oxidation of
-    ammonia in flames Combust. Sci. Technol. 34, 149-176, 1983
+    ammonia in flames Combust. Sci. Technol. 34, 149-176, (1983)
 - equation: NH2 + O <=> NH + OH
   duplicate: true
   rate-constant: {A: 7.0e+12, b: 0.0, Ea: 0.0}
@@ -1475,10 +1475,10 @@ common-reactions:
   duplicate: true
   rate-constant: {A: 0.86, b: 4.01, Ea: 1673.0}
   note: |-
-    Inomata S Washida N JPCA 103:5023-5031 1999
-    Dransfeld P Hack W Kurzke H Temps F Wagner HGg PCI 20:655 1984
-    Adamson JD Farhat SK Morter CL Glass GP Curl RF Philips LF JPC 98:5665 1994
-    Duan X Page M JCP 102:6121-6127 1995
+    Inomata S Washida N JPCA 103:5023-5031 (1999)
+    Dransfeld P Hack W Kurzke H Temps F Wagner HGg PCI 20:655 (1984)
+    Adamson JD Farhat SK Morter CL Glass GP Curl RF Philips LF JPC 98:5665 (1994)
+    Duan X Page M JCP 102:6121-6127 (1995)
 - equation: NH2 + OH <=> NH + H2O
   rate-constant: {A: 3.3e+06, b: 1.949, Ea: -217.0}
   note: |-
@@ -1530,9 +1530,9 @@ common-reactions:
   rate-constant: {A: 1.2e+15, b: -0.5, Ea: 0.0}
   note: |-
     DF Davidson K Kohse-Hinghaus AY Chang RK Hanson. A pyrolysis mechanism for ammonia.
-    Int J Chem Kin 22:513-535, 1990.
+    Int J Chem Kin 22:513-535, (1990)
     P. Marshall, G.R. Rawlins, P. Glarborg. New reactions of diazene and related species
-    for modeling combustion of amine fuels, Mol. Phys. 119 (2021) e1979674.
+    for modeling combustion of amine fuels, Mol. Phys. 119 (2021)
     P. Glarborg, H. Hashemi, P. Marshall, Challenges in Kinetic Modeling of Ammonia
     Pyrolysis, Fuel Commun. 10 (2022) 100049.
 - equation: NH2 + NH <=> cHNNH + H
@@ -1551,10 +1551,10 @@ common-reactions:
     Michael JPCA 113 (2009) 10241-10259.
 - equation: NH2 + N <=> N2 + H + H
   rate-constant: {A: 7.0e+13, b: 0.0, Ea: 0.0}
-  note: Whyte AR Phillips LF CPL 102:451 1983
+  note: Whyte AR Phillips LF CPL 102:451 (1983)
 - equation: NH2 + HNO <=> NH3 + NO
   rate-constant: {A: 590.0, b: 2.95, Ea: -3469.0}
-  note: S. Xu, M.C. Lin, Int J Chem Kinet 41: 667677, 2009
+  note: S. Xu, M.C. Lin, Int J Chem Kinet 41: 667677, (2009)
 - equation: NH2 + NO <=> N2 + H2O
   rate-constant: {A: 2.6e+19, b: -2.369, Ea: 870.0}
   note: S. Song R.K. Hanson C.T. Bowman D.M. Golden Int J Chem Kinet 33 715-721, (2001)
@@ -1566,10 +1566,10 @@ common-reactions:
   note: |-
     P. Glarborg, The NH3/NO2/O2 system: Constraining key steps in ammonia ignition and
     N2O formation, submitted (2022).
-    S. Xu, M.C. Lin, Int J Chem Kinet 41: 667-677, 2009; A-factor reduced 30%
+    S. Xu, M.C. Lin, Int J Chem Kinet 41: 667-677, (2009); A-factor reduced 30%
 - equation: NH2 + HONO <=> NH2OH + NO
   rate-constant: {A: 5300.0, b: 2.28, Ea: 7983.0}
-  note: S. Xu, M.C. Lin, Int J Chem Kinet 41: 667-677, 2009
+  note: S. Xu, M.C. Lin, Int J Chem Kinet 41: 667-677, (2009)
 - equation: NH2 + HNO2 <=> NH3 + NO2
   rate-constant: {A: 2.8e+10, b: 0.0, Ea: -5760.0}
   note: Thaxton, A.G.; Hsu, C.C.; Lin, M.C. Int. J. Chem. Kinet. 29 245-251 (1997)
@@ -1607,12 +1607,12 @@ common-reactions:
     1474-1485.
 - equation: NH + H <=> N + H2
   rate-constant: {A: 3.5e+13, b: 0.0, Ea: 0.0}
-  note: Davidson DF Kohse-Hoinghaus K Chang AY Hanson RK IJCK 22:513 1990 (reverse)
+  note: Davidson DF Kohse-Hoinghaus K Chang AY Hanson RK IJCK 22:513 (1990) (reverse)
 - equation: NH + O <=> NO + H
   rate-constant: {A: 9.2e+13, b: 0.0, Ea: 0.0}
   note: |-
     Baulch DL Cobos CJ Cox RA Frank P Hayman G Just Th Kerr JA Murrells T Pilling MJ
-    Troe J Walker RW Warnatz J JPCRD 23:847-1033 1994
+    Troe J Walker RW Warnatz J JPCRD 23:847-1033 (1994)
 - equation: NH + OH <=> HNO + H
   rate-constant: {A: 3.2e+14, b: -0.376, Ea: -46.0}
   note: |-
@@ -1627,14 +1627,14 @@ common-reactions:
   rate-constant: {A: 2.4e+13, b: 0.0, Ea: 1.385e+04}
   note: |-
      Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
      Final value used in P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog.
      Energy Combust. Sci. 67 (2018) 31-68
 - equation: NH + O2 <=> NO + OH
   rate-constant: {A: 9.9e+10, b: 0.0, Ea: 1530.0}
   note: |-
      Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
      Final value Used in P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog.
      Energy Combust. Sci. 67 (2018) 31-68
 - equation: NH + NH <=> NNH + H
@@ -1654,14 +1654,14 @@ common-reactions:
   rate-constant: {A: 2.7e+15, b: -0.78, Ea: 20.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
     P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci.
     67 (2018) 31-68.
 - equation: NH + NO <=> N2 + OH
   rate-constant: {A: 6.8e+14, b: -0.78, Ea: 20.0}
   note: |-
      Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+     Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
      P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci.
      67 (2018) 31-68.
 - equation: NH + NO2 <=> N2O + OH
@@ -1673,13 +1673,13 @@ common-reactions:
 - equation: N + OH <=> NO + H
   rate-constant: {A: 3.8e+13, b: 0.0, Ea: 0.0}
   note: |-
-    Flower WL Hanson RK Kruger CH CST 15:115 1977
-    Howard MJ Smith IWM CPL 69:40 1980
+    Flower WL Hanson RK Kruger CH CST 15:115 (1977)
+    Howard MJ Smith IWM CPL 69:40 (1980)
 - equation: N + O2 <=> NO + O
   rate-constant: {A: 5.9e+09, b: 1.0, Ea: 6280.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: N + NO <=> N2 + O
   rate-constant: {A: 9.4e+12, b: 0.14, Ea: 0.0}
   note: M. Abian, M.U. Alzueta, P. Glarborg, Int. J. Chem. Kinet. 47 (2015) 518-532.
@@ -1859,10 +1859,10 @@ common-reactions:
     N2O formation, submitted (2022).
 - equation: HNO + H <=> NO + H2
   rate-constant: {A: 6.6e+10, b: 0.94, Ea: 495.0}
-  note: MT Nguyen S Zhang J Peeters TN TRuong MT Nguyen Chem Phys Lett 2004 388 94-99
+  note: MT Nguyen S Zhang J Peeters TN TRuong MT Nguyen Chem Phys Lett (2004) 388 94-99
 - equation: HNO + O <=> NO + OH
   rate-constant: {A: 2.3e+13, b: 0.0, Ea: 0.0}
-  note: Inomata S Washida N JPCA 103:5023-5031 1999
+  note: Inomata S Washida N JPCA 103:5023-5031 (1999)
 - equation: HNO + OH <=> H + HONO
   type: pressure-dependent-Arrhenius
   rate-constants:
@@ -1889,13 +1889,13 @@ common-reactions:
   note: Chen, X., Fuller, M. E., & Goldsmith, C. F. Reac Chem Eng, 4(2), 323-333 (2019)
 - equation: HNO + HO2 <=> HNO2 + OH
   rate-constant: {A: 2000.0, b: 2.36, Ea: 8980.0}
-  note: SH Mousavipour SS Asemani J Phys Chem A 2015 119 5553-5565
+  note: SH Mousavipour SS Asemani J Phys Chem A (2015) 119 5553-5565
 - equation: HNO + O2 <=> HO2 + NO
   rate-constant: {A: 4.0e+05, b: 2.3, Ea: 1.4605e+04}
   note: Q.-D. Wang, Y. Sun, H. J. Curran, Energy Fuels 34 (2019) 949-964
 - equation: HNO + HNO <=> N2O + H2O
   rate-constant: {A: 9.0e+08, b: 0.0, Ea: 3100.0}
-  note: NBS91      Tsang W JPCRD 20:221 1991
+  note: NBS91      Tsang W JPCRD 20:221 (1991)
 - equation: HNO + NO2 <=> HONO + NO
   rate-constant: {A: 790.0, b: 3.06, Ea: 3882.0}
   note: Y. Shang, J. Shi, H. Ning, R. Zhang, H. Wang, S. Luo, Fuel 243 (2019) 288297.
@@ -1903,21 +1903,21 @@ common-reactions:
   rate-constant: {A: 2.1e+12, b: 0.0, Ea: -497.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: NO + O (+M) <=> NO2 (+M)
   type: falloff
   low-P-rate-constant: {A: 4.72e+24, b: -2.87, Ea: 1550.0}
   high-P-rate-constant: {A: 1.3e+15, b: -0.75, Ea: 0.0}
   Troe: {A: 0.75, T3: 1000.0, T1: 1.0e+05, T2: 1.0e+30}
   note: |-
-    Tsang W JPCRD 20:221 1991
-    Allen MT Yetter RA Dryer FL CF 109:449 1997
+    Tsang W JPCRD 20:221 (1991)
+    Allen MT Yetter RA Dryer FL CF 109:449 (1997)
 - equation: NO2 + H <=> NO + OH
   rate-constant: {A: 1.4e+13, b: 0.29, Ea: 25.0}
   note: Chen, X., Fuller, M. E., & Goldsmith, C. F. Reac Chem Eng, 4(2), 323-333 (2019)
 - equation: NO2 + O <=> NO + O2
   rate-constant: {A: 1.1e+14, b: -0.52, Ea: 0.0}
-  note: Bemand PP Clyne MAA Watson RT JCSFT2 70:564-576 1974
+  note: Bemand PP Clyne MAA Watson RT JCSFT2 70:564-576 (1974)
 - equation: NO2 + HO2 <=> HONO + O2
   rate-constant: {A: 1.9, b: 3.32, Ea: 3044.0}
   note: CL Rasmussen J Hansen P Marshall P Glarborg IJCK 40, 454-480 (2008)
@@ -1926,17 +1926,17 @@ common-reactions:
   note: CL Rasmussen J Hansen P Marshall P Glarborg IJCK 40, 454-480 (2008)
 - equation: NO2 + NO2 <=> NO + NO + O2
   rate-constant: {A: 4.5e+12, b: 0.0, Ea: 2.7599e+04}
-  note: Park J Giles ND Moore J Lin MC JPCA 102:10099 1998
+  note: Park J Giles ND Moore J Lin MC JPCA 102:10099 (1998)
 - equation: NO2 + NO2 <=> NO3 + NO
   rate-constant: {A: 9.6e+09, b: 0.73, Ea: 2.09e+04}
-  note: Tsang W JPCRD 20:221 1991
+  note: Tsang W JPCRD 20:221 (1991)
 - equation: NO + OH (+M) <=> HONO (+M)
   type: falloff
   low-P-rate-constant: {A: 3.392e+23, b: -2.5, Ea: 0.0}
   high-P-rate-constant: {A: 1.1e+14, b: -0.3, Ea: 0.0}
   Troe: {A: 0.75, T3: 1.0e-30, T1: 1.0e+30, T2: 1.0e+30}
   efficiencies: {N2: 2.0, AR: 1.1, NH3: 6.0, NO2: 4.0, NO: 2.0}
-  note: Fulle D Hamann HF Hippler H Troe J JCP 108:5391 1998
+  note: Fulle D Hamann HF Hippler H Troe J JCP 108:5391 (1998)
 - equation: HONO + H <=> H2 + NO2
   rate-constant: {A: 1900.0, b: 2.83, Ea: 1423.0}
   note: Chen, X., Fuller, M. E., & Goldsmith, C. F. Reac Chem Eng, 4(2), 323-333 (2019)
@@ -1945,19 +1945,19 @@ common-reactions:
   note: Chen, X., Fuller, M. E., & Goldsmith, C. F. Reac Chem Eng, 4(2), 323-333 (2019)
 - equation: HONO + O <=> NO2 + OH
   rate-constant: {A: 1.2e+13, b: 0.0, Ea: 5960.0}
-  note: NBS91      Tsang W JPCRD 20:221 1991
+  note: NBS91      Tsang W JPCRD 20:221 (1991)
 - equation: HONO + OH <=> NO2 + H2O
   rate-constant: {A: 1.7e+12, b: 0.0, Ea: -520.0}
   note: |-
-    Burkholder JB Mellouki A Talukdar R Ravishankara AR IJCK 24:711 1992
+    Burkholder JB Mellouki A Talukdar R Ravishankara AR IJCK 24:711 (1992)
     Consistent with R. A. Fifer, Kinetics of the reaction OH + HONO = H2O + NO2 at high
     temperatures behind shock, J. Phys. Chem. 80 (1976) 2717-2723
 - equation: HONO + NO2 <=> HONO2 + NO
   rate-constant: {A: 2.0e+11, b: 0.0, Ea: 3.27e+04}
-  note: Park J Giles ND Moore J Lin MC JPCA 102:10099 1998
+  note: Park J Giles ND Moore J Lin MC JPCA 102:10099 (1998)
 - equation: HONO + HONO <=> NO + NO2 + H2O
   rate-constant: {A: 0.35, b: 3.64, Ea: 1.214e+04}
-  note: Mebel AM Lin MC Melius CF JPCA 102:1803 1998
+  note: Mebel AM Lin MC Melius CF JPCA 102:1803 (1998)
 - equation: HNO2 <=> HONO
   type: pressure-dependent-Arrhenius
   rate-constants:
@@ -2018,46 +2018,46 @@ common-reactions:
   low-P-rate-constant: {A: 2.5e+20, b: -1.5, Ea: 0.0}
   high-P-rate-constant: {A: 3.5e+12, b: 0.24, Ea: 0.0}
   Troe: {A: 0.71, T3: 1.0e-30, T1: 1700.0, T2: 1.0e+30}
-  note: Hahn J Luther K Troe J PCCP 2:5098 2000
+  note: Hahn J Luther K Troe J PCCP 2:5098 (2000)
 - equation: NO3 + H <=> NO2 + OH
   rate-constant: {A: 6.0e+13, b: 0.0, Ea: 0.0}
-  note: Becker E Rahman MM Schindler RN BBPC 96:776 1992
+  note: Becker E Rahman MM Schindler RN BBPC 96:776 (1992)
 - equation: NO3 + O <=> NO2 + O2
   rate-constant: {A: 1.0e+13, b: 0.0, Ea: 0.0}
   note: |-
-    Atkinson R Baulch DL Cox RA Hampson RF Kerr JA Troe J JPC Ref Data 1992, 21,
+    Atkinson R Baulch DL Cox RA Hampson RF Kerr JA Troe J JPC Ref Data (1992), 21,
     11251568.
 - equation: NO3 + OH <=> NO2 + HO2
   rate-constant: {A: 1.4e+13, b: 0.0, Ea: 0.0}
   note: |-
-    Atkinson R Baulch DL Cox RA Hampson RF Kerr JA Troe J JPC Ref Data 1992, 21,
+    Atkinson R Baulch DL Cox RA Hampson RF Kerr JA Troe J JPC Ref Data (1992), 21,
     11251568.
 - equation: NO3 + HO2 <=> NO2 + O2 + OH
   rate-constant: {A: 1.5e+12, b: 0.0, Ea: 0.0}
-  note: Becker E Rahman MM Schindler RN BBPC 96:776 1992
+  note: Becker E Rahman MM Schindler RN BBPC 96:776 (1992)
 - equation: NO3 + NO2 <=> NO + NO2 + O2
   rate-constant: {A: 5.0e+10, b: 0.0, Ea: 2940.0}
   note: |-
     DeMore WB Sander SP Golden DM Molina MJ Hampson RF Kurylo MJ Howard CJ Ravishankara
-    AR JPL P 90-1:1 1990
+    AR JPL P 90-1:1 (1990)
 - equation: NO2 + OH (+M) <=> HONO2 (+M)
   type: falloff
   low-P-rate-constant: {A: 2.938e+25, b: -3.0, Ea: 0.0}
   high-P-rate-constant: {A: 3.0e+13, b: 0.0, Ea: 0.0}
   Troe: {A: 0.4, T3: 1.0e-30, T1: 1.0e+30, T2: 1.0e+30}
-  note: Troe J IJCK 33:878 2001
+  note: Troe J IJCK 33:878 (2001)
 - equation: HONO2 + H <=> H2 + NO3
   rate-constant: {A: 5.6e+08, b: 1.5, Ea: 1.64e+04}
-  note: Boughton JW Kristyan S Lin MC Chem. Phys 214:219 1997
+  note: Boughton JW Kristyan S Lin MC Chem. Phys 214:219 (1997)
 - equation: HONO2 + H <=> H2O + NO2
   rate-constant: {A: 61.0, b: 3.3, Ea: 6285.0}
-  note: Boughton JW Kristyan S Lin MC Chem. Phys 214:219 1997
+  note: Boughton JW Kristyan S Lin MC Chem. Phys 214:219 (1997)
 - equation: HONO2 + H <=> OH + HONO
   rate-constant: {A: 3.8e+05, b: 2.3, Ea: 6976.0}
-  note: Boughton JW Kristyan S Lin MC Chem. Phys 214:219 1997
+  note: Boughton JW Kristyan S Lin MC Chem. Phys 214:219 (1997)
 - equation: HONO2 + OH <=> H2O + NO3
   rate-constant: {A: 1.0e+10, b: 0.0, Ea: -1240.0}
-  note: Lamb JJ Mozurkewich M Benson SW JPC 88:6441-6448 1984
+  note: Lamb JJ Mozurkewich M Benson SW JPC 88:6441-6448 (1984)
 - equation: N2O (+M) <=> N2 + O (+M)
   type: falloff
   low-P-rate-constant: {A: 6.0e+14, b: 0.0, Ea: 5.7444e+04}
@@ -2065,15 +2065,15 @@ common-reactions:
   efficiencies: {N2: 1.7, O2: 1.4, H2O: 12.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
     Fc=1.167-1.25E-4T close to 1.0 over 300-2500 K range
-    Johnsson JE Glarborg P Dam-Johansen K PCI 24:917 1992 (TBE)
+    Johnsson JE Glarborg P Dam-Johansen K PCI 24:917 (1992) (TBE)
 - equation: N2O + H <=> N2 + OH
   rate-constant: {A: 6.4e+07, b: 1.835, Ea: 1.3492e+04}
   note: SJ Klippenstein LB Harding P Glarborg JA Miller CF 158 (2011) 774-789.
 - equation: N2O + O <=> NO + NO
   rate-constant: {A: 9.2e+13, b: 0.0, Ea: 2.7679e+04}
-  note: Meagher NE Anderson WR JPCA 104:6013-6031 2000
+  note: Meagher NE Anderson WR JPCA 104:6013-6031 (2000)
 - equation: N2O + O <=> N2 + O2
   rate-constant: {A: 9.2e+13, b: 0.0, Ea: 2.7679e+04}
   note: |-
@@ -2081,14 +2081,14 @@ common-reactions:
     67 (2018) 31-68.
 - equation: N2O + OH <=> N2 + HO2
   rate-constant: {A: 0.013, b: 4.72, Ea: 3.656e+04}
-  note: Mebel AM Diau EWG Lin MC Morokuma K JPC 100:7517-7525 1996
+  note: Mebel AM Diau EWG Lin MC Morokuma K JPC 100:7517-7525 (1996)
 - equation: N2O + OH <=> HNO + NO
   rate-constant: {A: 1.2e-04, b: 4.33, Ea: 2.508e+04}
-  note: Mebel AM Diau EWG Lin MC Morokuma K JPC 100:7517-7525 1996
+  note: Mebel AM Diau EWG Lin MC Morokuma K JPC 100:7517-7525 (1996)
 - equation: N2O + NO <=> NO2 + N2
   rate-constant: {A: 5.3e+05, b: 2.23, Ea: 4.628e+04}
   note: |-
-    Mebel AM Diau EWG Lin MC Morokuma K JPC 100:7517-7525 1996
+    Mebel AM Diau EWG Lin MC Morokuma K JPC 100:7517-7525 (1996)
     N2 amine subset
 - equation: HNOH + NH2 <=> N2H3 + OH
   rate-constant: {A: 10.0, b: 3.46, Ea: -467.0}
@@ -2108,17 +2108,17 @@ common-reactions:
 - equation: N2H4 + O <=> N2H3 + OH
   rate-constant: {A: 1.5e+11, b: 0.0, Ea: -1270.0}
   note: |-
-    Vaghjiani GL JPC 104:5479-5489 1996
-    Vaghjiani GL JPCA 105:4682-4690 2001
+    Vaghjiani GL JPC 104:5479-5489 (1996)
+    Vaghjiani GL JPCA 105:4682-4690 (2001)
 - equation: N2H4 + O <=> tHNNH + H2O
   rate-constant: {A: 2.9e+11, b: 0.0, Ea: -1270.0}
   note: |-
-    Vaghjiani GL JPC 104:5479-5489 1996
-    Vaghjiani GL JPCA 105:4682-4690 2001
+    Vaghjiani GL JPC 104:5479-5489 (1996)
+    Vaghjiani GL JPCA 105:4682-4690 (2001)
     Non-OH products assumed
 - equation: N2H4 + OH <=> N2H3 + H2O
   rate-constant: {A: 1.3e+13, b: 0.0, Ea: -318.0}
-  note: Vaghjiani GL IJCK 33:354-362 2001
+  note: Vaghjiani GL IJCK 33:354-362 (2001)
 - equation: N2H4 + NH2 <=> N2H3 + NH3
   rate-constant: {A: 20.0, b: 3.62, Ea: -397.0}
   note: |-
@@ -2149,7 +2149,7 @@ common-reactions:
   high-P-rate-constant: {A: 1.3e+11, b: 0.819, Ea: 4.806e+04}
   Troe: {A: 0.168, T3: 8.0e+04, T1: 28.0, T2: 7298.0}
   efficiencies: {N2: 2.0, AR: 1.0}
-  note: P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214-6236, 2020.
+  note: P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214-6236, (2020).
 - equation: N2H3 + H <=> tHNNH + H2
   rate-constant: {A: 46.0, b: 3.53, Ea: 3750.0}
   note: |-
@@ -2203,10 +2203,10 @@ common-reactions:
     Dean AM Bozzelli JW (Gardiner WC) Gas Phase Combustion Chemistry, Springer (2000)
 - equation: N2H3 + NH2 <=> tHNNH + NH3
   rate-constant: {A: 0.61, b: 3.574, Ea: 1194.0}
-  note: P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214 6236, 2020.
+  note: P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214 6236, (2020).
 - equation: N2H3 + NH2 <=> H2NN + NH3
   rate-constant: {A: 11.0, b: 3.08, Ea: 211.0}
-  note: P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214 156236, 2020.
+  note: P. Divart and L. Catoire. J. Phys. Chem. A, 124:6214 156236, (2020).
 - equation: N2H3 + NH <=> tHNNH + NH2
   rate-constant: {A: 2.0e+13, b: 0.0, Ea: 0.0}
   note: JAM est
@@ -2247,10 +2247,10 @@ common-reactions:
   note: JAM est
 - equation: tHNNH + OH <=> NNH + H2O
   rate-constant: {A: 59.0, b: 3.4, Ea: 1360.0}
-  note: Linder DP Duan X Page M JCP 104:6298 1996
+  note: Linder DP Duan X Page M JCP 104:6298 (1996)
 - equation: tHNNH + NH2 <=> NNH + NH3
   rate-constant: {A: 2.7e+05, b: 2.226, Ea: -1034.0}
-  note: P. Dievart and L. Catoire. J. Phys. Chem. A, 124:6214-6236, 2020.
+  note: P. Dievart and L. Catoire. J. Phys. Chem. A, 124:6214-6236, (2020).
 - equation: tHNNH + NH <=> NNH + NH2
   rate-constant: {A: 2.4e+06, b: 2.0, Ea: -1192.0}
   note: |-
@@ -2279,10 +2279,10 @@ common-reactions:
     Dean AM Bozzelli JW (Gardiner WC) Gas Phase Combustion Chemistry, Springer (2000)
 - equation: H2NN <=> N2 + H2
   rate-constant: {A: 2.5e+14, b: 0.0, Ea: 5.2785e+04}
-  note: D.-Y. Hwang, A.M. Mebel, J. Phys. Chem. A 2003, 107, 2865-2874
+  note: D.-Y. Hwang, A.M. Mebel, J. Phys. Chem. A (2003), 107, 2865-2874
 - equation: H2NN <=> tHNNH
   rate-constant: {A: 1.3e+14, b: 0.0, Ea: 4.6931e+04}
-  note: D.-Y. Hwang, A.M. Mebel, J. Phys. Chem. A 2003, 107, 2865-2874
+  note: D.-Y. Hwang, A.M. Mebel, J. Phys. Chem. A (2003), 107, 2865-2874
 - equation: H2NN + H <=> NNH + H2
   rate-constant: {A: 4.8e+08, b: 1.5, Ea: -894.0}
   note: |-
@@ -2356,36 +2356,36 @@ common-reactions:
   type: three-body
   rate-constant: {A: 1.1e+16, b: 0.0, Ea: 8.6e+04}
   efficiencies: {N2: 1.5}
-  note: Mertens JD Chang AY Hanson RK Bowman CT IJCK 21:1049 1989
+  note: Mertens JD Chang AY Hanson RK Bowman CT IJCK 21:1049 (1989)
 - equation: HNCO + H <=> NH2 + CO
   rate-constant: {A: 3.6e+04, b: 2.49, Ea: 2345.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: HNCO + H <=> NCO + H2
   rate-constant: {A: 9.0e+07, b: 1.66, Ea: 1.39e+04}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
 - equation: HNCO + O <=> NCO + OH
   rate-constant: {A: 2.2e+06, b: 2.11, Ea: 1.143e+04}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
-    Tsang W JPCRD 21:753-791 1992
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
+    Tsang W JPCRD 21:753-791 (1992)
 - equation: HNCO + O <=> NH + CO2
   rate-constant: {A: 9.6e+07, b: 1.41, Ea: 8520.0}
   note: |-
     Baulch DL Bowman CT Cobos CJ Cox RA Just Th Kerr JA Pilling MJ Stocker D Troe J
-    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 2005
-    Tsang W JPCRD 21:753-791 1992
+    Tsang W Walker RW Warnatz J JPCRD 34:757-1397 (2005)
+    Tsang W JPCRD 21:753-791 (1992)
 - equation: HNCO + O <=> HNO + CO
   rate-constant: {A: 1.5e+08, b: 1.57, Ea: 4.4012e+04}
-  note: He Y Lin MC Wu CK Melius CF PCI 24:711 1992
+  note: He Y Lin MC Wu CK Melius CF PCI 24:711 (1992)
 - equation: HNCO + OH <=> NCO + H2O
   rate-constant: {A: 3.5e+07, b: 1.5, Ea: 3600.0}
   note: |-
-    Wooldridge ST Hanson RK Bowman CT IJCK 28:361-372 1995
+    Wooldridge ST Hanson RK Bowman CT IJCK 28:361-372 (1995)
     D Sengupta MT Nguyen J. Chem. Phys. 106 (1997) 9703-9707: NH2+CO2 channel negligible
 - equation: HNCO + HO2 <=> NCO + H2O2
   rate-constant: {A: 3.0e+11, b: 0.0, Ea: 2.2e+04}
@@ -2399,8 +2399,8 @@ common-reactions:
   rate-constant: {A: 2.0e+13, b: 0.0, Ea: 4.85e+04}
   note: |-
     X.-G. Wei, X.-M. Sun, X.-P. Wu, S. Geng, Y. Ren, N.-B. Wong, and W.-K. Li. J Mol
-    Model 17:2069 2082, 2011.
-    X. Cheng, Y. Zhao, W. Zhu, and Y. Liu. J Mol Model, 19:5037 5043, 2013.
+    Model 17:2069 2082, (2011).
+    X. Cheng, Y. Zhao, W. Zhu, and Y. Liu. J Mol Model, 19:5037 5043, (2013).
     P. Glarborg, J.A. Miller, B. Ruscic, S.J. Klippenstein, Prog. Energy Combust. Sci.
     67 (2018) 31-68.
 - equation: HNCO + NH <=> NH2 + NCO
