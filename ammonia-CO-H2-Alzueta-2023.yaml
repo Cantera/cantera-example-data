@@ -969,6 +969,7 @@ linear-Burke-reactions:
   units: {length: m, quantity: kmol, activation-energy: cal/mol}
   colliders:
   - name: M
+    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.000e-04 atm, A: 5.30514e+12, b: -2.80725e+00, Ea: 4.99267e+02}
@@ -995,6 +996,7 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
+    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.316e-02 atm, A: 9.39968e+14, b: -2.14348e+00, Ea: 7.72730e+01}
@@ -1028,6 +1030,7 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
+    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.000e-04 atm, A: 2.71622e+18, b: -3.29277e+00, Ea: 4.87751e+04}
@@ -1058,6 +1061,7 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
+    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 0.1 atm, A: 7.23e+29, b: -5.316, Ea: 110862.4}
@@ -1086,6 +1090,7 @@ linear-Burke-reactions:
   units: {length: m, quantity: kmol, activation-energy: cal/mol}
   colliders:
   - name: M
+    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 1.000e-04 atm, A: 1.20024e+25, b: -6.43982e+00, Ea: 2.05356e+03}
@@ -1116,6 +1121,7 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
+    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
     rate-constants:
     - {P: 0.1 atm, A: 2.0121e+19, b: -3.021, Ea: 47792.0}
