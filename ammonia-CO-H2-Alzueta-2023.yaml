@@ -981,9 +981,9 @@ linear-Burke-reactions:
     - {P: 1.000e+03 atm, A: 4.28006e+15, b: -1.57172e+00, Ea: 9.80056e+02}
     - {P: 1.000e+04 atm, A: 6.79586e+12, b: -5.77830e-01, Ea: 4.56911e+02}
   - name: AR
-    eps: {A: 2.20621e-02, b: 4.74036e-01, Ea: -1.13148e+02}
+    efficiency: {A: 2.20621e-02, b: 4.74036e-01, Ea: -1.13148e+02}
   - name: H2O
-    eps: {A: 1.04529e-01, b: 5.50787e-01, Ea: -2.32675e+02}
+    efficiency: {A: 1.04529e-01, b: 5.50787e-01, Ea: -2.32675e+02}
   note: |-
     N2 is the reference collider 'M'
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New
@@ -1006,17 +1006,17 @@ linear-Burke-reactions:
     - {P: 3.000e+01 atm, A: 1.49784e+18, b: -2.10026e+00, Ea: 4.87579e+02}
     - {P: 1.000e+02 atm, A: 3.82218e+18, b: -2.07057e+00, Ea: 6.65984e+02}
   - name: HE
-    eps: {A: 3.37601e-01, b: 1.82568e-01, Ea: 3.62408e+01}
+    efficiency: {A: 3.37601e-01, b: 1.82568e-01, Ea: 3.62408e+01}
   - name: N2
-    eps: {A: 1.24932e+02, b: -5.93263e-01, Ea: 5.40921e+02}
+    efficiency: {A: 1.24932e+02, b: -5.93263e-01, Ea: 5.40921e+02}
   - name: H2
-    eps: {A: 3.13717e+04, b: -1.25419e+00, Ea: 1.12924e+03}
+    efficiency: {A: 3.13717e+04, b: -1.25419e+00, Ea: 1.12924e+03}
   - name: CO2
-    eps: {A: 1.62413e+08, b: -2.27622e+00, Ea: 1.97023e+03}
+    efficiency: {A: 1.62413e+08, b: -2.27622e+00, Ea: 1.97023e+03}
   - name: NH3
-    eps: {A: 4.97750e+00, b: 1.64855e-01, Ea: -2.80351e+02}
+    efficiency: {A: 4.97750e+00, b: 1.64855e-01, Ea: -2.80351e+02}
   - name: H2O
-    eps: {A: 3.69146e+01, b: -7.12902e-02, Ea: 3.19087e+01}
+    efficiency: {A: 3.69146e+01, b: -7.12902e-02, Ea: 3.19087e+01}
   note: |-
     Ar is the reference collider 'M'
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New
@@ -1040,13 +1040,13 @@ linear-Burke-reactions:
     - {P: 1.000e+03 atm, A: 1.21632e+19, b: -1.40247e+00, Ea: 5.02104e+04}
     - {P: 1.000e+04 atm, A: 2.12510e+16, b: -4.29000e-01, Ea: 4.97239e+04}
   - name: N2
-    eps: {A: 1.14813e+00, b: 4.60090e-02, Ea: -2.92413e+00}
+    efficiency: {A: 1.14813e+00, b: 4.60090e-02, Ea: -2.92413e+00}
   - name: CO2
-    eps: {A: 8.98839e+01, b: -4.27974e-01, Ea: 2.41392e+02}
+    efficiency: {A: 8.98839e+01, b: -4.27974e-01, Ea: 2.41392e+02}
   - name: H2O2
-    eps: {A: 6.45295e-01, b: 4.26266e-01, Ea: 4.28932e+01}
+    efficiency: {A: 6.45295e-01, b: 4.26266e-01, Ea: 4.28932e+01}
   - name: H2O
-    eps: {A: 1.36377e+00, b: 3.06592e-01, Ea: 2.10079e+02}
+    efficiency: {A: 1.36377e+00, b: 3.06592e-01, Ea: 2.10079e+02}
   note: |-
     Ar is the reference collider 'M'
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New
@@ -1065,15 +1065,15 @@ linear-Burke-reactions:
     - {P: 10 atm, A: 1.975e+31, b: -5.155, Ea: 111887.8}
     - {P: 100 atm, A: 2.689e+31, b: -4.920, Ea: 112778.7}
   - name: N2
-    eps: {A: 4.49281e+00, b: -9.46265e-02, Ea: -1.10071e+02}
+    efficiency: {A: 4.49281e+00, b: -9.46265e-02, Ea: -1.10071e+02}
   - name: O2
-    eps: {A: 1.15210e-01, b: 3.41234e-01, Ea: -3.89210e+02}
+    efficiency: {A: 1.15210e-01, b: 3.41234e-01, Ea: -3.89210e+02}
   - name: CO2
-    eps: {A: 9.19583e+00, b: 6.10696e-02, Ea: 9.01088e+01}
+    efficiency: {A: 9.19583e+00, b: 6.10696e-02, Ea: 9.01088e+01}
   - name: NH3
-    eps: {A: 1.49004e+01, b: 6.06535e-02, Ea: 2.47652e+02}
+    efficiency: {A: 1.49004e+01, b: 6.06535e-02, Ea: 2.47652e+02}
   - name: H2O
-    eps: {A: 1.14560e+01, b: 1.27501e-01, Ea: 3.13959e+02}
+    efficiency: {A: 1.14560e+01, b: 1.27501e-01, Ea: 3.13959e+02}
   note: |-
     Ar is the reference collider 'M'
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New
@@ -1098,13 +1098,13 @@ linear-Burke-reactions:
     - {P: 1.000e+03 atm, A: 8.99670e+16, b: -2.12230e+00, Ea: 1.37012e+03}
     - {P: 1.000e+04 atm, A: 5.28067e+13, b: -1.06166e+00, Ea: 5.64223e+02}
   - name: N2
-    eps: {A: 1.46848e+01, b: -3.00962e-01, Ea: 1.65146e+02}
+    efficiency: {A: 1.46848e+01, b: -3.00962e-01, Ea: 1.65146e+02}
   - name: O2
-    eps: {A: 1.53608e+00, b: -3.90857e-02, Ea: 4.43752e+00}
+    efficiency: {A: 1.53608e+00, b: -3.90857e-02, Ea: 4.43752e+00}
   - name: NH3
-    eps: {A: 1.64196e+01, b: -7.29636e-02, Ea: 3.66099e+02}
+    efficiency: {A: 1.64196e+01, b: -7.29636e-02, Ea: 3.66099e+02}
   - name: H2O
-    eps: {A: 2.17658e+01, b: -1.14715e-01, Ea: 4.19216e+02}
+    efficiency: {A: 2.17658e+01, b: -1.14715e-01, Ea: 4.19216e+02}
   note: |-
     Ar is the reference collider 'M'
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New
@@ -1124,9 +1124,9 @@ linear-Burke-reactions:
     - {P: 100 atm, A: 5.6445e+21, b: -2.855, Ea: 48459.0}
     - {P: 1000 atm, A: 9.7111e+21, b: -2.642, Ea: 48940.0}
   - name: N2
-    eps: {A: 7.56771e+00, b: -1.96878e-01, Ea: 2.53168e+02}
+    efficiency: {A: 7.56771e+00, b: -1.96878e-01, Ea: 2.53168e+02}
   - name: H2O
-    eps: {A: 3.35451e+00, b: 1.33352e-01, Ea: 6.64633e+01}
+    efficiency: {A: 3.35451e+00, b: 1.33352e-01, Ea: 6.64633e+01}
   note: |-
     Ar is the reference collider 'M'
     P. J. Singal, J. Lee, L. Lei, R. L. Speth, M. P. Burke, Implementation of New
