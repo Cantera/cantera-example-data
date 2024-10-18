@@ -969,8 +969,8 @@ linear-Burke-reactions:
   units: {length: m, quantity: kmol, activation-energy: cal/mol}
   colliders:
   - name: M
-    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
+    type: pressure-dependent-Arrhenius
     rate-constants:
     - {P: 1.000e-04 atm, A: 5.30514e+12, b: -2.80725e+00, Ea: 4.99267e+02}
     - {P: 1.000e-03 atm, A: 5.25581e+13, b: -2.80630e+00, Ea: 4.99946e+02}
@@ -996,8 +996,8 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
-    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
+    type: pressure-dependent-Arrhenius
     rate-constants:
     - {P: 1.316e-02 atm, A: 9.39968e+14, b: -2.14348e+00, Ea: 7.72730e+01}
     - {P: 1.316e-01 atm, A: 1.07254e+16, b: -2.15999e+00, Ea: 1.30239e+02}
@@ -1030,8 +1030,8 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
-    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
+    type: pressure-dependent-Arrhenius
     rate-constants:
     - {P: 1.000e-04 atm, A: 2.71622e+18, b: -3.29277e+00, Ea: 4.87751e+04}
     - {P: 1.000e-03 atm, A: 2.81583e+19, b: -3.29786e+00, Ea: 4.88063e+04}
@@ -1061,8 +1061,8 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
-    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
+    type: pressure-dependent-Arrhenius
     rate-constants:
     - {P: 0.1 atm, A: 7.23e+29, b: -5.316, Ea: 110862.4}
     - {P: 1 atm, A: 3.497e+30, b: -5.224, Ea: 111163.3}
@@ -1090,8 +1090,8 @@ linear-Burke-reactions:
   units: {length: m, quantity: kmol, activation-energy: cal/mol}
   colliders:
   - name: M
-    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
+    type: pressure-dependent-Arrhenius
     rate-constants:
     - {P: 1.000e-04 atm, A: 1.20024e+25, b: -6.43982e+00, Ea: 2.05356e+03}
     - {P: 1.000e-03 atm, A: 1.19856e+26, b: -6.43893e+00, Ea: 2.16055e+03}
@@ -1121,8 +1121,8 @@ linear-Burke-reactions:
   type: linear-Burke
   colliders:
   - name: M
-    type: pressure-dependent-Arrhenius
     eps: {A: 1, b: 0, Ea: 0}
+    type: pressure-dependent-Arrhenius
     rate-constants:
     - {P: 0.1 atm, A: 2.0121e+19, b: -3.021, Ea: 47792.0}
     - {P: 1 atm, A: 1.8259e+20, b: -3.008, Ea: 47880.0}
