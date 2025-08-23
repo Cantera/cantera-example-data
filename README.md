@@ -6,6 +6,18 @@ input files found here are based on scientific publications and are meant to dem
 Cantera's capabilities with more realistic and interesting reaction systems than those
 based only on the basic mechanisms provided in the main Cantera repository.
 
+> [!IMPORTANT]
+> **Licensing and Attribution Notice**
+>
+> The Cantera project is not the original author of the reaction mechanisms included
+> in this repository and is not claiming to grant a license to them. The mechanisms
+> were assembled by their respective researchers and appear to be shared without
+> restrictive licensing requirements.
+>
+> **If you use this data in scientific publications, please cite the original papers**
+> associated with each mechanism. Suitable citations are included in the `description`
+> field of each mechanism file.
+
 ## Adding files for new examples
 
 To implement an example requiring a new input file, the following steps should be
@@ -29,4 +41,3 @@ followed:
   `cantera-example-data` can be merged.
 - Finally, the PR branch for the main repository can be updated to include the update
   of the `example_data` submodule, and this PR can be merged.
-
