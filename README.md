@@ -30,8 +30,9 @@ followed:
     `example_data` submodule to this branch.
 - Commit the input file to a feature branch in the `example_data` submodule.
 - Create a pull request for your example in the main Cantera repository
-- Create a pull request in the `cantera-example-data` repository which includes the text
-  `(Cantera/cantera#XYZ)` where `XYZ` is the number of your PR in the main repository.
+- Create a pull request in the `cantera-example-data` repository which includes the
+  reference `Cantera/cantera#XYZ` in the title where `XYZ` is the number of your PR in
+  the main repository.
   * The CI process in the main repository will automatically check out this submodule
     PR so the new input file is available for those jobs that run the examples.
   * You should see one failing job, with the description `Linters / Check for unmerged
